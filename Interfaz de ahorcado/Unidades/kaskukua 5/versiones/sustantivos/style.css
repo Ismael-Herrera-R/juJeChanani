@@ -1,0 +1,55 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background-image: url(./assets/fondo.jpg);
+    background-size: cover;
+}
+
+.cajita{
+    background-color: #6c25be;
+    opacity: 0.95;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: center;
+    text-align: center;
+    color: wheat;
+    border-radius: 5px;
+}
+
+#ahorcado{
+    height: 434px;
+    width: 307px;
+
+    background-image: url('./assets/image\ \(4\)\ \(1\).png');
+}
+
+#letra{
+    font-size: larger;
+}
+
+#output{
+    background-color: #6c25be;
+    opacity: 0.65;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: center;
+    text-align: center;
+    color: wheat !important;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+#victoria{
+    display: none;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: blueviolet;
+}

@@ -1,0 +1,20 @@
+body{
+    background-image: url(./assets/fondo.jpg);
+    background-size: cover;
+}
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+
+.caja{
+    background-color: #6c25be;
+    opacity: 0.95;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: center;
+    text-align: center;
+    color: wheat;
+    border-radius: 5px;
+}

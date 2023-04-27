@@ -1,0 +1,39 @@
+[
+    {
+        "precio": 35.00,
+        "id": 1,
+        "nombre": "Iétakata blanquillu",
+        "img": "./assets/menu1.jpg"
+    },
+    {
+        "precio": 40.00,
+        "id": 2,
+        "nombre": "Jurhixantskata blanquillu",
+        "img": "./assets/menu2.jpg"
+
+    },
+    {
+        "precio": 55.00,
+        "id": 3,
+        "nombre": "Chilaquili pipisï jinkoni",
+        "img": "./assets/menu3.jpg"
+    },
+    {
+        "precio": 15.00,
+        "id": 4,
+        "nombre": "K'ékua",
+        "img": "./assets/menu4.jpg"
+    },
+    {
+        "precio": 15.00,
+        "id": 5,
+        "nombre": "Itsukua",
+        "img": "./assets/menu5.jpg"
+    },
+    {
+        "precio": 60.00,
+        "id": 6,
+        "nombre": "K'uiripita churhipu úntskata",
+        "img": "./assets/menu6.jpg"
+    }
+]
