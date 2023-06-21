@@ -1,0 +1,38 @@
+[
+    {
+        "precio": 15.00,
+        "id": 1,
+        "nombre": "tsíri",
+        "img": "./recursos/tsiri.PNG"
+    },
+    {
+        "precio": 27.50,
+        "id": 2,
+        "nombre": "t'atsïni",
+        "img": "./recursos/tatsini.PNG"
+    },
+    {
+        "precio": 25.00,
+        "id": 3,
+        "nombre": "jáasï",
+        "img": "./recursos/jaasi.PNG"
+    },
+    {
+        "precio": 18.00,
+        "id": 4,
+        "nombre": "etukua",
+        "img": "./recursos/etukua.PNG"
+    },
+    {
+        "precio": 35.50,
+        "id": 5,
+        "nombre": "japometa",
+        "img": "./recursos/japometa.PNG"
+    },
+    {
+        "precio": 60.00,
+        "id": 6,
+        "nombre": "trigu",
+        "img": "./recursos/trigu.PNG"
+    }
+]

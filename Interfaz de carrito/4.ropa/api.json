@@ -1,0 +1,38 @@
+[
+    {
+        "precio": 350,
+        "id": 1,
+        "nombre": "atache",
+        "img": "./recursos/atache.PNG"
+    },
+    {
+        "precio": 400,
+        "id": 2,
+        "nombre": "sïrit'akua",
+        "img": "./recursos/siritakua.PNG"
+    },
+    {
+        "precio": 200,
+        "id": 3,
+        "nombre": "tatsunharikua",
+        "img": "./recursos/tatsunharhikua.PNG"
+    },
+    {
+        "precio": 150,
+        "id": 4,
+        "nombre": "jónkuarhikua",
+        "img": "./recursos/jonkuarhikua.PNG"
+    },
+    {
+        "precio": 450,
+        "id": 5,
+        "nombre": "uanenku",
+        "img": "./recursos/uanenku.PNG"
+    },
+    {
+        "precio": 150,
+        "id": 6,
+        "nombre": "tirhintikua",
+        "img": "./recursos/tirhintikua.PNG"
+    }
+]

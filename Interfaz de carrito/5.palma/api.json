@@ -1,0 +1,32 @@
+[
+    {
+        "precio": 300,
+        "id": 1,
+        "nombre": "kuatasï",
+        "img": "./recursos/kuatasi.PNG"
+    },
+    {
+        "precio": 75,
+        "id": 2,
+        "nombre": "tsïkata",
+        "img": "./recursos/tsikata.PNG"
+    },
+    {
+        "precio": 180,
+        "id": 3,
+        "nombre": "káts'ïkua",
+        "img": "./recursos/katsikua.PNG"
+    },
+    {
+        "precio": 90,
+        "id": 4,
+        "nombre": "k'uírakua",
+        "img": "./recursos/kuirakua.PNG"
+    },
+    {
+        "precio": 70,
+        "id": 5,
+        "nombre": "iorhesï",
+        "img": "./recursos/iorhesi.PNG"
+    }
+]

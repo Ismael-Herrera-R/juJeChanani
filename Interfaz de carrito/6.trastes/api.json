@@ -1,0 +1,38 @@
+[
+    {
+        "precio": 100,
+        "id": 1,
+        "nombre": "eroksï",
+        "img": "./recursos/eroksi.PNG"
+    },
+    {
+        "precio": 250,
+        "id": 2,
+        "nombre": "iauarhi",
+        "img": "./recursos/iauarhi.PNG"
+    },
+    {
+        "precio": 50,
+        "id": 3,
+        "nombre": "tsúntsu",
+        "img": "./recursos/tsuntsu.PNG"
+    },
+    {
+        "precio": 75,
+        "id": 4,
+        "nombre": "porhechi",
+        "img": "./recursos/porhechi.PNG"
+    },
+    {
+        "precio": 70,
+        "id": 5,
+        "nombre": "urhani",
+        "img": "./recursos/urhani.PNG"
+    },
+    {
+        "precio": 210,
+        "id": 6,
+        "nombre": "jeiumakata",
+        "img": "./recursos/jeiumakata.PNG"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "precio": 30.00,
+        "id": 1,
+        "nombre": "enanti",
+        "img": "./recursos/enanti.PNG"
+    },
+    {
+        "precio": 40.00,
+        "id": 2,
+        "nombre": "turaso",
+        "img": "./recursos/turaso.PNG"
+    },
+    {
+        "precio": 45.00,
+        "id": 3,
+        "nombre": "sïtuni",
+        "img": "/recursos/situni.PNG"
+    },
+    {
+        "precio": 25.00,
+        "id": 4,
+        "nombre": "naraxa",
+        "img": "/recursos/naraxa.PNG"
+    },
+    {
+        "precio": 35.00,
+        "id": 5,
+        "nombre": "mantsana",
+        "img": "/recursos/mantsana.PNG"
+    },
+    {
+        "precio": 20.00,
+        "id": 6,
+        "nombre": "limonisï",
+        "img": "/recursos/limonisi.jpg"
+    }
+]
