@@ -22,11 +22,5 @@
         "id": 4,
         "nombre": "k'uírakua",
         "img": "./recursos/kuirakua.PNG"
-    },
-    {
-        "precio": 70,
-        "id": 5,
-        "nombre": "iorhesï",
-        "img": "./recursos/iorhesi.PNG"
     }
 ]

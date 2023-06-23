@@ -15,24 +15,24 @@
         "precio": 45.00,
         "id": 3,
         "nombre": "sïtuni",
-        "img": "/recursos/situni.PNG"
+        "img": "./recursos/situni.PNG"
     },
     {
         "precio": 25.00,
         "id": 4,
         "nombre": "naraxa",
-        "img": "/recursos/naraxa.PNG"
+        "img": "./recursos/naraxa.PNG"
     },
     {
         "precio": 35.00,
         "id": 5,
         "nombre": "mantsana",
-        "img": "/recursos/mantsana.PNG"
+        "img": "./recursos/mantsana.PNG"
     },
     {
         "precio": 20.00,
         "id": 6,
         "nombre": "limonisï",
-        "img": "/recursos/limonisi.jpg"
+        "img": "./recursos/limonisi.jpg"
     }
 ]

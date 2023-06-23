@@ -34,5 +34,11 @@
         "id": 6,
         "nombre": "jeiumakata",
         "img": "./recursos/jeiumakata.PNG"
+    },
+    {
+        "precio": 70,
+        "id": 7,
+        "nombre": "iorhesï",
+        "img": "./recursos/iorhesi.PNG"
     }
 ]
