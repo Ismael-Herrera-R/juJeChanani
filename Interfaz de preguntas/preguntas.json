@@ -1,0 +1,34 @@
+[
+    {
+        "categoria": "Morfemas",
+        "pregunta": "¿Qué significa 'ampatsïni'?",
+        "respuesta": "limpiarse la cabeza",
+        "incorrecta1": "limpiarse la nariz",
+        "incorrecta2": "rascarse la cabeza",
+        "incorrecta3": "rascarse la nariz"
+    },
+    {
+        "categoria": "Morfemas",
+        "pregunta": "¿Qué significa 'ampanturhani'?",
+        "respuesta": "lavarse los pies",
+        "incorrecta1": "rascarse la espalda",
+        "incorrecta2": "tener vello en los pies",
+        "incorrecta3": "tener vello en la espalda"
+    },
+    {
+        "categoria": "Morfemas",
+        "pregunta": "¿Qué significa 'tisïnchani'?",
+        "respuesta": "tener vello en el cuello",
+        "incorrecta1": "tener vello en el pecho",
+        "incorrecta2": "tener vello en la cara",
+        "incorrecta3": "tener vello en las orejas"
+    },
+    {
+        "categoria": "Morfemas",
+        "pregunta": "¿Qué significa 'p'amemuni'?",
+        "respuesta": "tener dolor en la boca",
+        "incorrecta1": "tener dolor de cabeza",
+        "incorrecta2": "tener dolor de pies",
+        "incorrecta3": "tener dolor de espalda"
+    }
+]
