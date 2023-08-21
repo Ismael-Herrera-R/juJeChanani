@@ -7,21 +7,21 @@ let basePreguntas = [
     },
     {
         "categoria": "Sustantivos (k'uiripu)",
-        "pregunta": "¿Néna arhinhhasïnki 'niño' p'urhe jimpo?",
+        "pregunta": "¿Néna arhinhasïnki 'niño' p'urhe jimpo?",
         "imagen": "./recursos/niño.PNG",
         "respuesta": "tataka sapi",
         "distractores": ["nanaka sapi", "nanaka", "tataka"]
     },
     {
         "categoria": "Sustantivos (k'uiripu)",
-        "pregunta": "¿Néna arhinhhasïnki 'niña' p'urhe jimpo?",
+        "pregunta": "¿Néna arhinhasïnki 'niña' p'urhe jimpo?",
         "imagen": "./recursos/niña.PNG",
         "respuesta": "nanaka sapi",
         "distractores": ["tataka sapi", "nanaka", "tataka"]
     },
     {
         "categoria": "Sustantivos (k'uiripu)",
-        "pregunta": "¿Néna arhinhhasïnki 'chico joven' p'urhe jimpo?",
+        "pregunta": "¿Néna arhinhasïnki 'chico joven' p'urhe jimpo?",
         "imagen": "./recursos/chico.PNG",
         "respuesta": "tataka",
         "distractores": ["nanaka sapi", "nanaka", "tataka sapi"]
@@ -40,14 +40,14 @@ let basePreguntas = [
     },
     {
         "categoria": "Sustantivos (k'uiripu)",
-        "pregunta": "¿Néna arhinhhasïnki 'chica joven' p'urhe jimpo?",
+        "pregunta": "¿Néna arhinhasïnki 'chica joven' p'urhe jimpo?",
         "imagen": "./recursos/chica.PNG",
         "respuesta": "nanaka",
         "distractores": ["uarhiiti", "kutsïmiti", "achaati"]
     },
     {
         "categoria": "Sustantivos (k'uiripu)",
-        "pregunta": "¿Néna arhinhhasïnki 'bebé' p'urhe jimpo?",
+        "pregunta": "¿Néna arhinhasïnki 'bebé' p'urhe jimpo?",
         "imagen": "./recursos/bebé.png",
         "respuesta": "uátsï",
         "distractores": ["uarhiiti", "kutsïmiti", "achaati"]
@@ -60,7 +60,7 @@ let basePreguntas = [
     },
     {
         "categoria": "Sustantivos (k'uiripu)",
-        "pregunta": "¿Néna arhinhhasïnki 'anciana' p'urhe jimpo?",
+        "pregunta": "¿Néna arhinhasïnki 'anciana' p'urhe jimpo?",
         "imagen": "./recursos/anciana.PNG",
         "respuesta": "kutsïmiti",
         "distractores": ["uátsï", "marikua", "uarhiiti"]
