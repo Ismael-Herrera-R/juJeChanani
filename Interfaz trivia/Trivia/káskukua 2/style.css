@@ -141,3 +141,7 @@ li a.active, li a:hover{
 .card p{
     line-height: 1.4em;
 }
+
+p i{
+    color: black;
+}
