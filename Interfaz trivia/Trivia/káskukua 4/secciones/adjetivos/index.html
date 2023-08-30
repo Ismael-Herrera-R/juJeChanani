@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Káskukua 4: adjetivos</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.20/dist/sweetalert2.all.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./recursos/logo.png">
+</head>
+<body>
+    <div id="tablero">
+        <div id="encabezado">
+            <span id="categoria"></span>
+            <span id="pregunta">Aquí va la pregunta</span>
+            <br>
+            <img id="imagen" src="./recursos/signo.png" style="width: 30%; height: 30%; object-fit: contain;" alt="">
+        </div>
+
+        <div class="btn" id="btn1" onclick="seleccionarOpcion(0)">Opción 1</div>
+        <div class="btn" id="btn2" onclick="seleccionarOpcion(1)">Opción 2</div>
+        <div class="btn" id="btn3" onclick="seleccionarOpcion(2)">Opción 3</div>
+        <div class="btn" id="btn4" onclick="seleccionarOpcion(3)">Opción 4</div>
+    </div>
+
+
+    <script src="./base-preguntas.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ju je mian'ta 1: frases</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./recursos/logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./recursos/logo.png">
+
+    <script src="./script.js" async></script>
+</head>
+<body>
+    <h1 class="titulo-pagina">Ju je miant'a 1: saludos</h1>
+    <div class="texto-superpuesto visible">
+        ¡Comencemos! 
+    </div>
+    <div class="texto-superpuesto" id="txt-juego-terminado">
+        Juego terminado
+        <span class="texto-superpuesto-pequeño">Comencemos de nuevo</span> 
+    </div>
+
+    <div class="texto-superpuesto" id="txt-victoria">
+        ¡Felicidades, ganaste!
+        <span class="texto-superpuesto-pequeño">Comencemos de nuevo</span> 
+    </div>
+    <div class="contenedor-juego">
+        <div class="contenedor-info-juego">
+            <div class="info-juego">
+                Tiempo: <span id="tiempo-restante">150</span>
+            </div>
+
+            <div class="info-juego">
+                Intentos: <span id="intentos">0</span>
+            </div>
+        </div>
+        <div class="tarjeta"><!--aquí va pauani-->
+            <div class="tarjeta-trasera tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno1.png" alt="">
+                <img class="pregunta" src="./recursos/pregunta1.png" alt="">
+            </div>
+            <div class="tarjeta-cara tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno2.png" alt="">
+                <img class="valor-tarjeta" src="./recursos/na-erantsku.png" alt="" id="buenos-días">
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="tarjeta-trasera tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno1.png" alt="">
+                <img class="pregunta" src="./recursos/pregunta1.png" alt="">
+            </div>
+            <div class="tarjeta-cara tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno2.png" alt="">
+                <img class="valor-tarjeta" src="./recursos/buenos-dias.png" alt="" id="buenos-días">
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="tarjeta-trasera tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno1.png" alt="">
+                <img class="pregunta" src="./recursos/pregunta1.png" alt="">
+            </div>
+            <div class="tarjeta-cara tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno2.png" alt="">
+                <img class="valor-tarjeta" src="./recursos/na-chusku.png" alt="" id="buenas-tardes">
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="tarjeta-trasera tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno1.png" alt="">
+                <img class="pregunta" src="./recursos/pregunta1.png" alt="">
+            </div>
+            <div class="tarjeta-cara tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno2.png" alt="">
+                <img class="valor-tarjeta" src="./recursos/buenas-tardes.png" alt="" id="buenas-tardes">
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="tarjeta-trasera tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno1.png" alt="">
+                <img class="pregunta" src="./recursos/pregunta1.png" alt="">
+            </div>
+            <div class="tarjeta-cara tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno2.png" alt="">
+                <img class="valor-tarjeta" src="./recursos/amperi-uxaki.png" alt="" id="que-haces">
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="tarjeta-trasera tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno1.png" alt="">
+                <img class="pregunta" src="./recursos/pregunta1.png" alt="">
+            </div>
+            <div class="tarjeta-cara tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno2.png" alt="">
+                <img class="valor-tarjeta" src="./recursos/que-haces.png" alt="" id="que-haces">
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="tarjeta-trasera tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno1.png" alt="">
+                <img class="pregunta" src="./recursos/pregunta1.png" alt="">
+            </div>
+            <div class="tarjeta-cara tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno2.png" alt="">
+                <img class="valor-tarjeta" src="./recursos/isku-sani.png" alt="" id="aqui-nada-mas">
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="tarjeta-trasera tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno1.png" alt="">
+                <img class="pregunta" src="./recursos/pregunta1.png" alt="">
+            </div>
+            <div class="tarjeta-cara tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno2.png" alt="">
+                <img class="valor-tarjeta" src="./recursos/aqui-nada-mas.png" alt="" id="aqui-nada-mas">
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="tarjeta-trasera tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno1.png" alt="">
+                <img class="pregunta" src="./recursos/pregunta1.png" alt="">
+            </div>
+            <div class="tarjeta-cara tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno2.png" alt="">
+                <img class="valor-tarjeta" src="./recursos/jarhaskiri.png" alt="" id="estás">
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="tarjeta-trasera tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno1.png" alt="">
+                <img class="pregunta" src="./recursos/pregunta1.png" alt="">
+            </div>
+            <div class="tarjeta-cara tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno2.png" alt="">
+                <img class="valor-tarjeta" src="./recursos/estás.png" alt="" id="estás">
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="tarjeta-trasera tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno1.png" alt="">
+                <img class="pregunta" src="./recursos/pregunta1.png" alt="">
+            </div>
+            <div class="tarjeta-cara tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno2.png" alt="">
+                <img class="valor-tarjeta" src="./recursos/ixu-jarhaska.png" alt="" id="aqui-estoy">
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="tarjeta-trasera tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno1.png" alt="">
+                <img class="pregunta" src="./recursos/pregunta1.png" alt="">
+            </div>
+            <div class="tarjeta-cara tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno2.png" alt="">
+                <img class="valor-tarjeta" src="./recursos/aqui-estoy.png" alt="" id="aqui-estoy">
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="tarjeta-trasera tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno1.png" alt="">
+                <img class="pregunta" src="./recursos/pregunta1.png" alt="">
+            </div>
+            <div class="tarjeta-cara tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno2.png" alt="">
+                <img class="valor-tarjeta" src="./recursos/nari-jarhaski.png" alt="" id="como-estas">
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="tarjeta-trasera tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno1.png" alt="">
+                <img class="pregunta" src="./recursos/pregunta1.png" alt="">
+            </div>
+            <div class="tarjeta-cara tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno2.png" alt="">
+                <img class="valor-tarjeta" src="./recursos/como-estas.png" alt="" id="como-estas">
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="tarjeta-trasera tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno1.png" alt="">
+                <img class="pregunta" src="./recursos/pregunta1.png" alt="">
+            </div>
+            <div class="tarjeta-cara tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno2.png" alt="">
+                <img class="valor-tarjeta" src="./recursos/sesi.png" alt="" id="bien">
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="tarjeta-trasera tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno1.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno1.png" alt="">
+                <img class="pregunta" src="./recursos/pregunta1.png" alt="">
+            </div>
+            <div class="tarjeta-cara tarjeta-cuerpo">
+                <img class="adorno adorno-sup-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-sup-der" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-izq" src="./recursos/adorno2.png" alt="">
+                <img class="adorno adorno-inf-der" src="./recursos/adorno2.png" alt="">
+                <img class="valor-tarjeta" src="./recursos/bien.png" alt="" id="bien">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

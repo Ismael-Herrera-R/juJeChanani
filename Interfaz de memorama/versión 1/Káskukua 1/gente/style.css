@@ -1,0 +1,208 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    min-height: 100vh;
+    cursor: pointer;
+}
+
+body{
+    margin: 0;
+    background: radial-gradient(lightblue, lightseagreen);
+}
+
+.titulo-pagina{
+    color: black;
+    font-weight: normal;
+    text-align: center;
+    font-size: 3em;
+}
+
+.contenedor-info-juego{
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-juego{
+    color: #fff;
+    font-size: 2em;
+}
+
+.contenedor-juego{
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-gap: 10px;
+    justify-content: center;
+    perspective: 500px;
+}
+
+.tarjeta{
+    position: relative;
+    height: 175px;
+    width: 125px;
+    transform-style: preserve-3d;
+}
+
+.tarjeta-cuerpo{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style: solid;
+    transition: transform 500ms ease-in-out;
+    backface-visibility: hidden;
+}
+
+.tarjeta.visible .tarjeta-trasera{
+    transform: rotateY(-180deg);
+}
+
+.tarjeta.visible .tarjeta-cara{
+    transform: rotateY(0);
+}
+
+.tarjeta.pares .tarjeta-cara .valor-tarjeta{
+    animation: dance 1s linear infinite 500ms;
+}
+
+.tarjeta-trasera{
+    background-color: lightcoral;
+    border-color: lightgreen;
+    transform: rotateY(0);
+}
+
+.adorno{
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    transition: width 100ms ease-in-out, height 100ms;
+}
+
+.tarjeta-cuerpo:hover .adorno{
+    width: 50px;
+    height: 50px;
+}
+
+.adorno-sup-izq{
+    transform: rotate(270deg);
+    top: 0;
+    left: 0;
+}
+
+.adorno-sup-der{
+    top: 0;
+    right: 0;
+}
+
+.adorno-inf-izq{
+    transform: rotate(180deg);
+    bottom: 0;
+    left: 0;
+}
+
+.adorno-inf-der{
+    transform: rotate(90deg);
+    bottom: 0;
+    right: 0;
+}
+
+.pregunta{
+    align-self: flex-start;
+    transform: translateY(40px);
+    transition: transform 100ms ease-in-out;
+}
+
+.tarjeta-trasera:hover .pregunta{
+    transform: translateY(35px);
+}
+
+.valor-tarjeta{
+    position: relative;
+    transition: transform 100ms ease-in-out;
+    transform: scale(.9);
+}
+
+.tarjeta-cara:hover .valor-tarjeta{
+    transform: scale(1);
+}
+
+.tarjeta-cara{
+    background-color: #ffbb89;
+    border-color: black;
+    transform: rotateY(180deg);
+}
+
+.texto-superpuesto{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    transition: background-color 500ms, font-size 500ms;
+}
+
+.texto-superpuesto-pequeño{
+    font-size: .3em;
+}
+
+.texto-superpuesto.visible{
+    display: flex;
+    animation: superpuesto-crecido 500ms forwards;
+}
+
+@keyframes dance {
+    0%, 100% {
+        transform: rotate(0);
+    }
+    25% {
+        transform: rotate(-20deg);
+    }
+    75% {
+        transform: rotate(20deg);
+    }
+}
+
+@keyframes superpuesto-crecido {
+    from {
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 0;
+    }
+    to {
+        background-color: rgba(0, 0, 0, 0.8);
+        font-size: 8em;
+    }
+}
+
+@media (max-width: 900px) {
+    .contenedor-juego{
+        grid-template-columns: repeat(4, auto);
+    }
+    .contenedor-info-juego{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .contenedor-juego{
+        grid-template-columns: repeat(2, auto);
+    }
+    .contenedor-info-juego{
+        flex-direction: column;
+        align-items: center;
+    }
+}
